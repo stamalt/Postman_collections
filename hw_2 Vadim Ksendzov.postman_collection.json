@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "b886f233-f124-4c36-a0b3-f12af0c53532",
+		"name": "hw_2 Vadim Ksendzov",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20982350"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tanya\",\r\n    \"age\": 30\r\n}"
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/users_info_3",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"users_info_3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/first",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"first"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "39"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Jul 2022 19:55:51 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "This is the first responce from server!"
+				}
+			]
+		}
+	]
+}
